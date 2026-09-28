@@ -65,7 +65,7 @@ if [ -n "${USE_SSH}" ]; then
       echo "In order to use the ssh connection option, you need to have an ssh key set up."
       echo "Please generate an ssh key by using ssh-keygen, or follow the instructions at the following URL for more information:"
       echo
-      echo "> https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection"
+      echo "> https://docs.github.com/en/repositories/creating-and-managing-repositories/troubleshooting-cloning-errors#check-your-ssh-access"
       echo
       echo "Once you have an ssh key set up, try running the command again."
     exit 1
